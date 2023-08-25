@@ -1,15 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
-/**
- * struct list_t - A structure representing a linked list node.
- * @str: A pointer to a string data.
- * @next: A pointer to the next node in the list.
- */
-typedef struct list_w
-{
-    char *str;
-    struct list_w *next;
-} list_t;
+
 
 /**
  * print_list - Prints all elements of a linked list.
@@ -20,7 +11,7 @@ typedef struct list_w
 size_t print_list(const list_t *h)
 {
     size_t node_count = 0; 
-    while (h != NULL)
+    while (h)
     {
         if (h->str == NULL)
         {
