@@ -5,13 +5,14 @@
 
 
 #include <stddef.h>
-typedef struct list_s
+typedef struct list_w
 {
     char *str;
-    struct list_s *next;
+    struct list_w *next;
 } list_t;
 
 size_t print_list(const list_t *h);
+size_t list_len(const list_t *h);
 
 
 
