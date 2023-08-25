@@ -1,3 +1,5 @@
+#include "lists.h"
+#include <stdio.h>
 /**
  * struct list_t - A structure representing a linked list node.
  * @str: A pointer to a string data.
