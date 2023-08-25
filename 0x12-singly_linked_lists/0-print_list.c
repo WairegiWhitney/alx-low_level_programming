@@ -5,10 +5,10 @@
  * @str: A pointer to a string data.
  * @next: A pointer to the next node in the list.
  */
-typedef struct list_t
+typedef struct list_w
 {
     char *str;
-    struct list_t *next;
+    struct list_w *next;
 } list_t;
 
 /**
