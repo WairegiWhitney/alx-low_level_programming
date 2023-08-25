@@ -5,10 +5,10 @@
 
 
 #include <stddef.h>
-typedef struct list_w
+typedef struct list_s
 {
     char *str;
-    struct list_w *next;
+    struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);

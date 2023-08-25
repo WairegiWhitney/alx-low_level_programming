@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdio.h>
 
 
 /**
@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
         }
         else
         {
-            printf("[%lu] %s\n", node_count, h->str); 
+            printf("[%d] %s\n", node_count, h->str); 
         }
         node_count++; 
         h = h->next;   
