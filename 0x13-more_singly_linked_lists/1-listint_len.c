@@ -19,15 +19,3 @@ size_t listint_len(const listint_t *h)
     return count;
 }
 
-int main()
-{
-
-
-    listint_t node1={1,NULL};
-    listint_t node0={0,&node1};
-    listint_t *head=&node0;
-    size_t nodes=listint_len(head);
-    printf("elements:%d",nodes);
-
-    return 0;
-}
