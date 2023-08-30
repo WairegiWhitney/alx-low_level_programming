@@ -16,8 +16,3 @@ Prototype: void free_listint(listint_t *head)
       temp=next;
   }
 }
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
